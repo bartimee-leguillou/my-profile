@@ -86,12 +86,9 @@ a:hover {
 
 .list-inline li {
   display: inline;
-  margin: 0 10px;
+  margin: 0 40px;
 }
 
-.list-inline i {
-  font-size: 40px;
-}
 
 @media (max-width: 760px) {
   .container {
