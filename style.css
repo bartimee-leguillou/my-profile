@@ -86,11 +86,7 @@ a:hover {
 
 .list-inline li {
   display: inline;
-  margin: 0 40px;
-}
-
-.list-inline i {
-  font-size: 80px;
+  margin: 0 80px;
 }
 
 
