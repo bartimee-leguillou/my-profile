@@ -102,5 +102,5 @@ a:hover {
 }
 
 .list-inline i.fa-square-instagram {
-  font-size: 40px;
+  font-size: 40px !important;
 }
