@@ -14,7 +14,7 @@
 }
 
 .intro:hover, .sports:hover, .life:hover, .food:hover, .follow:hover {
-  transform: translateY(-5px);
+  transform: translateY(-3px);
 }
 
 body {
