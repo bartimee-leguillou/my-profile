@@ -1,0 +1,111 @@
+/* Container */
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+/* Cards */
+.intro, .sports, .life, .food, .follow {
+  background-color: white;
+  padding: 30px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.intro:hover, .sports:hover, .life:hover, .food:hover, .follow:hover {
+  transform: translateY(-5px);
+}
+
+/* Body */
+body {
+  background-color: rgb(250, 245, 235);
+  color: rgb(45, 45, 45);
+  font-family: "Georgia", serif;
+  font-size: 16px;
+  line-height: 1.7;
+  text-align: center;
+}
+
+/* Titles */
+h1, h2, h3 {
+  font-family: "Palatino Linotype", serif;
+}
+
+h1 {
+  color: rgb(15, 40, 85);
+  font-size: 38px;
+  font-weight: 600;
+}
+
+h2 {
+  color: rgb(25, 75, 150);
+  font-size: 26px;
+  font-weight: 500;
+}
+
+h3 {
+  color: rgb(70, 90, 130);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* Image */
+.img-circle {
+  border-radius: 50%;
+  width: 120px;
+  margin-bottom: 15px;
+}
+
+/* Button */
+.btn-blue {
+  background-color: rgb(25, 75, 150);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  display: inline-block;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.btn-blue:hover {
+  background-color: rgb(15, 40, 85);
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  font-weight: 600;
+  color: rgb(120, 140, 190);
+  transition: 0.3s;
+}
+
+a:hover {
+  color: rgb(15, 40, 85);
+}
+
+/* List inline */
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline li {
+  display: inline;
+  margin: 0 10px;
+}
+
+/* Responsive design */
+@media (max-width: 760px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 90%;
+  }
+}
