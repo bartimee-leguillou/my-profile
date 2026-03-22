@@ -86,7 +86,7 @@ a:hover {
 
 .list-inline li {
   display: inline;
-  margin: 0 80px;
+  margin: 0 10px;
 }
 
 @media (max-width: 760px) {
@@ -99,4 +99,8 @@ a:hover {
   .container {
     width: 90%;
   }
+}
+
+.list-inline i.fa-square-instagram {
+  font-size: 40px;
 }
